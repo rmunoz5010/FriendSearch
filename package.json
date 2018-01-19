@@ -1,0 +1,24 @@
+{
+  "name": "friendsearch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmunoz5010/FriendSearch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmunoz5010/FriendSearch/issues"
+  },
+  "homepage": "https://github.com/rmunoz5010/FriendSearch#readme"
+}

@@ -14,8 +14,8 @@ app.use(bodyParser.text());
 app.use(bodyParser.json({type:'application/vnd.api+json'}));
 
 //points are server to our route files
-require('./app/routing/api-routes.js')(app); 
-require('./app/routing/html-routes.js')(app);
+require('./api/routing.js')(app); 
+
 
 //starts our server
 app.listen(PORT, function() {
